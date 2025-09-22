@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+  width: 100%;
+  background: brown;
+  height: 150px;
+}
+.left-inner-contant {
+  width: 20%;
+  float: left;
+  height: 100%;
+  background: yellow;
+}
+.right-inner-contant {
+  width: 80%;
+  float: right;
+  height: 100%;
+  background: rgb(34, 182, 32);
+}
+.content {
+  border: 5px solid black;
+  height: 1000px;
+}
+.footer{
+    width: 100%;
+    background-color: blueviolet;
+    height:150px;
+}
