@@ -50,11 +50,12 @@
             <h1 class="rt-heading">Create an account</h1>
             <p class="rt-para">It's quick and easy.</p>
 
-            <form action="">
+            <form action="" id="signup-form">
               <table>
                 <tr>
                   <td>
                     <input
+                      name="fname"
                       type="text"
                       placeholder="First name"
                       class="fst-name"
@@ -62,6 +63,7 @@
                   </td>
                   <td>
                     <input
+                      name="sname"
                       type="text"
                       placeholder="Sure name"
                       class="sur-name"
@@ -73,6 +75,7 @@
                 <tr>
                   <td>
                     <input
+                      name="emailAddress"
                       type="text"
                       placeholder="Mobile Number or email address"
                       class="mob-email"
@@ -84,8 +87,16 @@
                 <tr>
                   <td>
                     <input
+                      name="newPassword"
+                      id="newPassword"
                       type="text"
                       placeholder="New password"
+                      class="sin-pass"
+                    />
+                    <input
+                      name="conformPassword"
+                      type="text"
+                      placeholder="Conform password"
                       class="sin-pass"
                     />
                   </td>
@@ -100,7 +111,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <input class="birthday" type="date" />
+                    <input class="birthday" name="dateOfBirth" type="date" />
                     <span class="symbol"><div class="sub-symbol">?</div></span>
                   </td>
                 </tr>
@@ -111,13 +122,14 @@
                 <tr>
                   <td>
                     <input name="gender" type="radio" />
-
                     <label class="gen-male">Female</label>
-                    <input name="gender" type="radio" />
 
+                    <input name="gender" type="radio" />
                     <label class="gen-female">Male</label>
+
                     <input name="gender" type="radio" />
                     <label class="gen-custom">Custom</label>
+
                     <span class="symbol"><div class="sub-symbol">?</div></span>
                   </td>
                 </tr>
@@ -148,10 +160,20 @@
               </table>
             </form>
 
-            <p class="footer"><a class="footer-link" href="">Create a Page </a> for a celebrity, band or business.</p>
+            <p class="footer">
+              <a class="footer-link" href="">Create a Page </a> for a celebrity,
+              band or business.
+            </p>
           </div>
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="fb.js"></script>
   </body>
 </html>
