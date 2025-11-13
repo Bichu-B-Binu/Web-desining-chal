@@ -11,7 +11,10 @@
   <body>
     <!------Navbar------>
 
-    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg bg-success fixed-top"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="#">Foods Cab</a>
         <button
@@ -28,7 +31,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselExampleCaptions"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#order">Orders</a>
@@ -53,7 +61,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Location</a>
+              <a class="nav-link" href="#footer">Location</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -158,8 +166,9 @@
     </div>
 
     <!--Order-->
-    <h1 class="text-center">Order Your Food Now...!</h1>
     <div class="container" id="order">
+      <h1 class="text-center">Order Your Food Now...!</h1>
+
       <div class="row my-2">
         <div class="col-3">
           <div
@@ -306,6 +315,33 @@
               <a href="#" class="btn btn-primary">Oreder Now!</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid bg-warning" id="footer">
+      <div class="row">
+        <h1 class="text-center">Location</h1>
+
+        <div class="col-6">
+          <h1 class="text-white">Orders Cab Restaurant</h1>
+          <h4>Kochi</h4>
+          <h4>Kerala</h4>
+          <p>Tel: 248763</p>
+          <p>Email: testy@gmail.com</p>
+          <p>Website: www.testy.com</p>
+        </div>
+        <div class="col-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7893.086783879079!2d76.9492756392803!3d8.446418078881376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb2da76c667b%3A0xb5748a8336d8e3d7!2sThiruvallam%2C%20Thiruvananthapuram%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sus!4v1763016493773!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
