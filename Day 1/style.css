@@ -1,10 +1,10 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
 .header {
   width: 100%;
-  background: brown;
+  background: rgb(197, 16, 16);
   height: 150px;
 }
 .left-inner-contant {
@@ -27,4 +27,4 @@
     width: 100%;
     background-color: blueviolet;
     height:150px;
-}
+} */

@@ -41,7 +41,7 @@ const courses = [
     mentor: { name: "vishnu", contact: "99-223-34344" },
   },
   {
-    name: "mechine Learning",
+    name: "machine Learning",
     price: 6000,
     ratting: 8.87,
     isAvailable: false,
@@ -65,7 +65,7 @@ function displayCourses(courses) {
     courseContainer.innerHTML = "";
   courses.forEach((course) => {
     const courseUI = `<div class="course-card">
-            <h3>${formatName(course.name)}</h3>
+            <h3>${formatName(course.name)}</h3> 
             <p>Price: ${course.price}</p>
             <p>Rating: ${Math.round(course.ratting * 10) / 10}</p>
             <p>Available Languages: ${course.languages}</p>
