@@ -148,18 +148,21 @@ let reversed = "";
 
 // }, {});
 
-// console.log(result);
+// console.log(result);  
 
 // const a = { 1: "apple", banana: 2, 3: "orange", 4: "grapes" };
 // console.log(a[1],a.banana, a[3], a[4]);
-const strings = ["apple", "banana", "apple", "orange", "banana", "apple"];
-const obj = {};
-console.log((strings["apple"] = 2));
+// const strings = ["apple", "banana", "apple", "orange", "banana", "apple"];
+// const obj = {};
+// console.log((strings["apple"] = 2));
 
-for (let i = 0; i < strings.length; i++) {
-  const fruit = strings[i];
-  obj[fruit] = (obj[fruit] || 0) + 1;
-  console.log(obj[fruit]);
-}
+// for (let i = 0; i < strings.length; i++) {
+//   const fruit = strings[i];
+//   obj[fruit] = (obj[fruit] || 0) + 1;
+//   console.log(obj[fruit]);
+// }
 
-console.log(obj);
+const numbers = [1, 2, 3, 4, 5];
+// const obj= numbers.splice(0, 3);
+console.log(numbers);
+ 

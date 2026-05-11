@@ -101,8 +101,85 @@
 // const result = Number(  value.toFixed(1))
 // console.log(typeof result);
 
-const value = "JavaScript";
+// const value = "JavaScript";
 
-for (let i = value.length-1; i >= 0; i--) {
-  console.log(value[i]);
-}
+// for (let i = value.length-1; i >= 0; i--) {
+//   console.log(value[i]);
+// }
+// let s = "Hello, World!";
+// console.log([..."hello"]);
+
+// function countDown(n) {
+//     console.log(n)
+//     countDown(n-1)
+// }
+// countDown(3)
+
+// function makeCounter() {
+//   let count = 0; // private variable
+
+//   return function () {
+//     count++;
+//     // return count;
+//     return console.log(count);
+//   };
+// }
+
+// const counter = makeCounter();
+// counter();
+// counter();
+// counter();
+// (function() {
+//   let secret = "private";
+//   console.log("I ran immediately!");
+// })();
+
+// console.log(typeof []);/
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const result = numbers.forEach((num) => console.log(num));
+// const result1 = numbers.map((num) => console.log(num));
+
+// const arr = [1, 2, 3];
+// arr.forEach((item, index, array) => {
+//   array[index] = item * 2; // manually mutating
+// });
+// console.log(arr);
+
+// const arr = [1, 2, 3];
+// arr.forEach(function(item) {
+//   console.log(this); // what is logged?
+// }, { name: "myContext" });
+
+// let a = [1, 2];
+// let b = [1, 2];
+
+// console.log([2,3].length===2); // false, because they are different objects in memory
+// const numbers = [1, 2, 3, 4, 5];
+// const obj= numbers.splice(0, 3);
+// console.log(obj);
+// const data = () => {}
+
+//     const arr = [1, 2, 3,4];
+
+// const [,,th]= arr
+// console.log(th);
+
+// console.log(this);
+
+// const callBack = (data) => console.log(data);
+// const err = (err) => console.log(err);
+
+// navigator.geolocation.getCurrentPosition(callBack, err);
+
+// const number = [1, 2, 3, 4, 5];
+
+// const result = new Promise((resolve, reject) => {});
+
+// console.log(result);
+
+fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(json => console.log(json))
+
