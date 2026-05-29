@@ -1,0 +1,16 @@
+{
+  "name": "pakage",
+  "version": "1.0.0",
+  "main": "modules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bichu",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cli-color": "^2.0.4",
+    "upper-case": "^2.0.2",
+    "uppercase": "^2.0.0-beta.23"
+  }
+}
