@@ -1,0 +1,2 @@
+This is synchronous file writing
+New note added
